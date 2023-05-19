@@ -1,0 +1,42 @@
+section{
+    width: 40%;
+    display:flex;
+    margin: auto;
+    height:400px;
+    padding: auto;
+}
+
+div.result, div.summary{
+    color: white;
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    width: 45%;
+    border-radius: 20px;
+}
+div.result{
+    background-color: blue;
+}
+div.result>h6, div.result>p{
+    padding: auto;
+}
+div.summary>div{
+    width: 70%;
+    margin: auto;
+}
+div.summary> div.reaction {
+    color: brown;
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 5px;
+}
+p.right{
+    display: flex;
+    justify-content: left;
+    border: 1px solid red;
+    margin-left: 20%;
+
+
+}
