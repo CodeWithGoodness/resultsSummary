@@ -1,12 +1,10 @@
 section{
-    width: 55%;
+    width: 40%;
     display:flex;
     margin: auto;
-    height:300px;
+    height:270px;
     padding: auto;
-    min-width: fit-content;
 }
-
 div.result, div.summary{
     color: white;
     display: block;
@@ -16,31 +14,67 @@ div.result, div.summary{
     height: 100%;
     margin: auto;
     border-radius: 20px;
+    box-shadow: 10px 10px ;
 }
 div.result{
-    background-color: blue;
+    background-color:rgb(66, 66, 190);
 }
-div.result>h6, div.result>p{
-    padding: auto;
+div.result>h6{
+    font-weight: 200;
+    font-size: 12px;
+}
+div.result>p.great{
+    font-size: 15px;
+}
+div.result>p.num{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+div.result>p{
+    font-size: 9px;
+    margin-top: 2px;
 }
 div.summary>div{
     width: 80%;
     margin: auto;
-    margin-bottom: 8px;
-    height: 35px;
+    margin-bottom: 10px;
+    height: 30px;
     color: brown;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: antiquewhite;
-    border-radius: 10px;
-    min-width: fit-content;
-    /**box-shadow;**/
+    border-radius: 6px;
+    
 }
-
+div.summary>div>p>img{
+    height:12px;
+    margin-left: -20px;
+}
+div.summary{
+   box-shadow: 5px 5px 3px rgb(174, 172, 172);
+   
+}
 div.summary>h6{
+    text-align: left;
     color: black;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 10px 0px 30px 0;
+    font-size: 13px;
+    font-weight: 1000;
+    margin:0px 0px 25px 20px;
+}
+div.summary>div.continue{
+    background-color: darkslategray;
+    color: white;
+     border-radius: 25px;
+     font-size: 12px;
+}
+div.summary>div>p.text{
+    font-size: 10px;
+    margin-left:-30px;
+    border:1px solid red
+}
+div.summary>div>p.score{
+    font-size: 10px;
+    margin-right: -40px;
 }
